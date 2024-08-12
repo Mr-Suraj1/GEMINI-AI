@@ -1,0 +1,13 @@
+prefix=X:/gemini AI/venv/Library
+exec_prefix=X:/gemini AI/venv/Library
+libdir=X:/gemini AI/venv/Library/lib
+sharedlibdir=X:/gemini AI/venv/Library/lib
+includedir=X:/gemini AI/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
